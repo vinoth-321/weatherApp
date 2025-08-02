@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now !</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    
+     <div class="container">
+          <h1>&#9925;Weather Now !</h1>
+          <div class="sub">
+               <input type="text" id="city" name="city" placeholder="Enter the city">
+            <button onclick="weather()">&#128269;search</button>
+          </div>
+          <div class="loader">
+             <div class="round"></div>
+          </div>
+
+     </div>
+
+     <div class="con2">
+         <div class="left">
+           <button onclick="back()">back</button>
+           <div class="content">
+            <h1 id="cityname"></h1>
+            <h3>&#9925; Weather Now!</h3>
+           </div>
+           
+         </div>
+         <div class="right">
+             <h1 class="temp"></h1>
+             <img id="weather-icon" src="" alt="Weather Icon">
+             <h2 class="climate"></h2>
+             <h3 class="humidity"></h3>
+             <h3 class="wind"></h3>
+            
+         </div>
+
+     </div>
+
+
+
+</body>
+<script src="weather.js">
+
+</script>
+</html>
